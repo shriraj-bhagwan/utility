@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-23T13:25:26.774Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="WXUb5nGTy-Izpo1bFq2m" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-23T15:49:51.248Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="oxfwcBBD_icx4PddZLxw" version="21.8.2" type="github" pages="2">
   <diagram name="Page-1" id="XI_YfOdhx-SJYV5ovgZb">
     <mxGraphModel dx="1768" dy="817" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -126,6 +126,92 @@
         </mxCell>
         <mxCell id="BLmpcNob6G6IbGxpa6Lp-85" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="517" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="H3dn9tT3bql1xmxwXaA3" name="Page-2">
+    <mxGraphModel dx="1978" dy="1343" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5lfThKNGwnIVukvvouGw-1" value="" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="179" y="553" as="sourcePoint" />
+            <mxPoint x="172" y="-52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-2" value="Legit 1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-184" y="-56" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-3" value="KYC" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="43" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-4" value="CKYC" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-291" y="132" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-5" value="AAdhar" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-54" y="134" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-6" value="ckcAvailable : true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="232" width="124" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-7" value="ckcAvailable : false&lt;br&gt;aadhaarPanLink : true/false&lt;br&gt;nameInKyc: asda" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-96" y="221" width="229" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-8" value="Legit 2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="383" y="-62" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-9" value="KYC" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="383" y="24" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-10" value="CKYC" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="272" y="113" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-11" value="AAdhar" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="509" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-12" value="ckcAvailable : true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="263" y="213" width="124" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-13" value="ckcAvailable : false&lt;br&gt;aadhaarPanLink : true/false&lt;br&gt;nameInKyc: asda" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="484" y="202" width="229" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-14" value="aadhaar photo req" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="394" y="301" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-15" value="AAdhar" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="389" y="398" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-16" value="Bharat Term only" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="520" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-17" value="root:&lt;br&gt;nameInaadhar:&lt;br&gt;aadhaarPanLink&lt;br&gt;kycOption" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="509" y="416" width="229" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-18" value="adhaarpanlink :false" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-126" y="272" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-22" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="5lfThKNGwnIVukvvouGw-19" target="5lfThKNGwnIVukvvouGw-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-19" value="adhaarpanlink :true" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="32" y="265" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-20" value="check&amp;nbsp;&lt;br&gt;nameInKyc with FN MN LN" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-126" y="372" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-21" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="52" y="395" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-23" value="adhaarpanlink :false" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="324" y="484" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-24" value="adhaarpanlink :true" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="482" y="477" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5lfThKNGwnIVukvvouGw-25" value="check&amp;nbsp;&lt;br&gt;nameInaadhar with FN MN LN of Kycinfo" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="324" y="570" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
