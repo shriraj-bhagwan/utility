@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-23T13:19:26.452Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="IqFa5x3H5m__ZtisHl46" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-23T13:21:53.145Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="bkbvZRsrQTNrlg4ei9Wa" version="21.8.2" type="github">
   <diagram name="Page-1" id="XI_YfOdhx-SJYV5ovgZb">
-    <mxGraphModel dx="1876" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1768" dy="817" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -105,6 +105,12 @@
         </mxCell>
         <mxCell id="BLmpcNob6G6IbGxpa6Lp-77" value="&lt;h1 style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 13px; font-weight: normal;&quot;&gt;status : 404&lt;/span&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="675" y="390" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BLmpcNob6G6IbGxpa6Lp-78" value="&lt;h1 style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 13px; font-weight: normal;&quot;&gt;UI to poll every x seconds&lt;/span&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="415" y="145" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BLmpcNob6G6IbGxpa6Lp-79" value="&lt;h1 style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 13px; font-weight: normal;&quot;&gt;UI to save this data in Draft proposal as lifeAssuredDetails&lt;/span&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="296" width="190" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
