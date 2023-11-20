@@ -1,9 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2023-11-20T11:17:28.782Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.3" etag="XQFBgDUEIUQjkbPJYqC5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-20T11:32:48.958Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="6dmGzZs4QHVDQHOB_U7K" version="22.1.3" type="github">
   <diagram name="Page-1" id="6zPSGi_5j8XhdbT8p5G2">
-    <mxGraphModel>
+    <mxGraphModel dx="1876" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-1" value="KYC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="670" as="sourcePoint" />
+            <mxPoint x="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-3" value="Open Market" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-4" value="Closed Market" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S4u8yTSf6IiQlpLJHLhV-5" target="S4u8yTSf6IiQlpLJHLhV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-5" value="CKYC Pass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S4u8yTSf6IiQlpLJHLhV-6" target="S4u8yTSf6IiQlpLJHLhV-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S4u8yTSf6IiQlpLJHLhV-6" target="S4u8yTSf6IiQlpLJHLhV-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-6" value="CKYC fail" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S4u8yTSf6IiQlpLJHLhV-7" target="S4u8yTSf6IiQlpLJHLhV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-7" value="Adhar Photo verification" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-9" value="Adhar KYC Pass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-11" value="No KYC info of addhar is stored in KYCInfo node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="410" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-12" value="KYC done" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-13" value="KYC done" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-14" value="Adhar KYC fail" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-15" value="journey blocked. No Legit 1 called" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="320" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-17" value="Adhar Pass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-18" value="Adhar Fail" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-19" value="Pan Adhar Link flag&lt;br&gt;True" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-20" value="Pan Adhar Link flag&lt;br&gt;false" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-21" value="adharPhoto" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-22" value="legit 1 is called" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="265" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-23" value="Pan Adhar Link flag&lt;br&gt;True" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-24" value="Pan Adhar Link flag&lt;br&gt;false" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-25" value="journey blocked." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="610" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.575;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S4u8yTSf6IiQlpLJHLhV-7" target="S4u8yTSf6IiQlpLJHLhV-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u8yTSf6IiQlpLJHLhV-29" value="adharPhoto" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
