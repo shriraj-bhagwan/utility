@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AES Encryption/Decryption</title>
+    <style>
+      body{font-family:Arial,sans-serif;background-color:#f9f9f9;margin:0;padding:15px;width:90%}h1{text-align:center;color:#333}label{display:block;margin-bottom:10px;font-weight:700}input[type=text],textarea{width:100%;padding:10px;border:1px solid #ccc;border-radius:5px;margin-bottom:20px}textarea{min-height:200px}button{background-color:#0074d9;color:#fff;border:none;padding:10px 20px;border-radius:5px;cursor:pointer}button:hover{background-color:#0056b3}#result{margin-top:20px;padding:10px;border:1px solid #ccc;border-radius:5px;background-color:#f5f5f5;word-wrap:break-word}#copyToClipboard{visibility:hidden}.result-container{position:relative;margin-top:10px;padding:10px}.copy-button{position:absolute;top:5px;right:11px;padding:5px;cursor:pointer}
+       </style>
+</head>
+<body>
+    <h1>AES Encryption/Decryption</h1>
+    <label for="key">Enter Key:</label>
+    <input type="text" id="key" value="AAAAAAAA12345678">
+    <br>
+    <label for="inputText">Enter Text:</label>
+    <textarea id="inputText" rows="4" cols="50" ></textarea>
+    <br>
+    <button id="encrypt">Encrypt</button>
+    <button id="decrypt">Decrypt</button>
+    <br>
+    <div class="result-container">
+        <button class="copy-button" id="copyToClipboard" onclick="copyToClipboard()">Copy</button><p style="padding-left: 10px; display: inline;" id="msg"></p>
+    <div id="result"></div>
+    </div> 
+    <script>
+document.getElementById("decrypt").addEventListener("click",()=>{decrypt()}),document.getElementById("encrypt").addEventListener("click",()=>{encrypt()});var copyBtn=document.getElementById("copyToClipboard");function encrypt(){const e=document.getElementById("key").value,t=document.getElementById("inputText").value;var n=(new TextEncoder).encode(e.substring(0,16)),r=string2abuff(t);importKey(string2abuff(e)).then(e=>{crypto.subtle.encrypt({name:"AES-CBC",iv:n},e,r).then(e=>{var t=abuff2base64(e);document.getElementById("result").innerText=t,copyBtn.style.visibility="visible"})})}function decrypt(){const e=document.getElementById("key").value,t=document.getElementById("inputText").value;var n=(new TextEncoder).encode(e.substring(0,16)),r=base642abuff(t);importKey(string2abuff(e)).then(e=>{crypto.subtle.decrypt({name:"AES-CBC",iv:n},e,r).then(e=>{var t=(new TextDecoder).decode(e);isJSON(t)?(t=JSON.stringify(JSON.parse(t),null,2),document.getElementById("result").innerHTML=`<pre>${t}</pre>`,copyBtn.style.visibility="visible"):(document.getElementById("result").innerText=t,copyBtn.style.visibility="visible")})})}function importKey(e){return crypto.subtle.importKey("raw",e,{name:"AES-CBC"},!0,["decrypt","encrypt"])}function string2abuff(e){const t=new ArrayBuffer(e.length),n=new Uint8Array(t);for(let t=0,r=e.length;t<r;t++)n[t]=e.charCodeAt(t);return t}function abuff2base64(e){const t=new Uint8Array(e).reduce((e,t)=>e+String.fromCharCode(t),"");return btoa(t)}function base642abuff(e){for(var t=window.atob(e),n=t.length,r=new Uint8Array(n),o=0;o<n;o++)r[o]=t.charCodeAt(o);return r.buffer}function isJSON(e){try{return JSON.parse(e),!0}catch(e){return!1}}function copyToClipboard(){const e=document.getElementById("result"),t=document.createRange();t.selectNode(e),window.getSelection().removeAllRanges(),window.getSelection().addRange(t);const n=document.execCommand("copy");if(window.getSelection().removeAllRanges(),n){const e=document.getElementById("msg");e.textContent="Copied to clipboard!",setTimeout(()=>{e.textContent=""},1500)}}
+
+</script>
+</body>
+</html>
